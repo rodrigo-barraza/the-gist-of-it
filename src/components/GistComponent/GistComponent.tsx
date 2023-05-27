@@ -121,7 +121,7 @@ export default function GistComponent() {
                                     className="secondary mini filled black"
                                     label="No Recent Forks"
                                     type="button" 
-                                    disabled
+                                    disabled={true}
                                 ></ButtonComponent>
                             )}
                         </div>
