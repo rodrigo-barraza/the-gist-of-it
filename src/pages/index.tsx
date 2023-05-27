@@ -6,7 +6,7 @@ export default function Index() {
     return (
     <main className={styles.home}>
         <Head>
-            <title>The-Gist-Of-It</title>
+            <title>The Gist Of It</title>
             <meta name="description" content="A project by Rodrigo Barraza"/>
             <meta name="keywords" content="rodrigo barraza"/>
             <link rel="icon" href="/images/favicon.ico" />
