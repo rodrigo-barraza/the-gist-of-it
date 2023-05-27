@@ -12,7 +12,7 @@ export default function Index() {
             <link rel="icon" href="/images/favicon.ico" />
         </Head>
         <h1>The Gist of It</h1>
-        <p>Search through your favorite user's gists on Github.</p>
+        <p>Search through your favorite user&apos;s gists on Github.</p>
         <GistComponent>
         </GistComponent>
     </main>
