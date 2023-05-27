@@ -1,3 +1,5 @@
+import moment from 'moment'
+
 const UtilityLibrary = {
     isObjectEmpty(object: object) {
         for (var i in object){
@@ -6,6 +8,11 @@ const UtilityLibrary = {
             }
         }
         return true;
+    },
+    toHumanDateAndTime(date: string) {
+        if (date) {
+            return moment(date).format('MMMM Do, YYYY')
+        }
     },
 };
 
