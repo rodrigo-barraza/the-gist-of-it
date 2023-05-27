@@ -1,18 +1,4 @@
-# List of Gists
-get user gists
-https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28#list-gists-for-a-user
-
-# Filetype
-Filetype**: After fetching the Gists, you can iterate through each Gist and extract the filetype from the `files` object. Each file object will have a `language` key containing the language (filetype) of the file.
-
-# Forks
-https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28#list-gist-forks
-Replace `:gist_id` with the ID of the Gist for which you'd like to fetch the forks. After fetching the forks, you can get the username and avatar url of the last 3 forked users from the `owner` object in the forked Gist data.
-
-
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A React and Next.js project
 
 ## Getting Started
 
