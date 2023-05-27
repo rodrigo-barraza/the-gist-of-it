@@ -64,7 +64,7 @@ export default function GistComponent() {
             ></ButtonComponent>
         </form>
         <div className="ListComponent">
-            { hasSearched && gists.length == 0 && (
+            { !isSearching && hasSearched && gists.length == 0 && (
                 <div className="not-found">
                     <div className="icon">🔍</div>
                     <div className="message">We couldn’t find any gists by {hasSearched}</div>
@@ -72,7 +72,7 @@ export default function GistComponent() {
                 </div>
             )}
             <ul className="gists">
-                { gists.map((gist, gistIndex) => (
+                { !isSearching && gists.map((gist, gistIndex) => (
                     <li key={gistIndex}>
                         <div className="header">
                             <img src={gist.owner.avatar_url} alt="Owner avatar"></img>
