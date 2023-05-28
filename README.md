@@ -1,5 +1,7 @@
 ## 📄 The Gist of It
 
+[the-gist-of-it.vercel.app](https://the-gist-of-it.vercel.app/)
+
 A React and Next.js project
 
 ### Getting Started
