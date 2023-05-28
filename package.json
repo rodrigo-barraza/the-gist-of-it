@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@types/node": "20.2.4",
@@ -24,6 +25,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "cypress": "^12.13.0",
     "sass": "^1.62.1"
   }
 }
